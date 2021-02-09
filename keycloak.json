@@ -8,6 +8,12 @@
     "extract_dir": "keycloak-12.0.2",
     "env_add_path": ["bin"],
     "persist": ["standalone", "domain", "themes"],
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
     "checkver": {
         "github": "https://github.com/keycloak/keycloak"
     },
