@@ -1,0 +1,17 @@
+{
+    "version": "12.0.2",
+    "description": "Open Source Identity and Access Management For Modern Applications and Services",
+    "homepage": "https://keycloak.org",
+    "license": "Apache-2.0",
+    "url": "https://github.com/keycloak/keycloak/releases/download/12.0.2/keycloak-12.0.2.zip",
+    "hash": "4bd841d27c34e544dc2a04008a374853af5e35ae",
+    "checkver": {
+        "github": "https://github.com/keycloak/keycloak"
+    },
+    "autoupdate": {
+      "url": "https://github.com/keycloak/keycloak/releases/download/$version/keycloak-$version.zip",
+      "hash": {
+        "url": "https://github.com/keycloak/keycloak/releases/download/$version/keycloak-$version.zip.sha1",
+      }
+    }
+}
