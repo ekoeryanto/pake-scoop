@@ -1,5 +1,5 @@
 {
-    "version": "0.22.1",
+    "version": "2.3.4",
     "description": "High-Performance server for NATS.io, the cloud and edge native messaging system",
     "homepage": "https://nats.io/",
     "license": "Apache 2",
