@@ -1,0 +1,16 @@
+{
+    "version": "0.22.1",
+    "description": "NATS Streaming System Server",
+    "homepage": "https://nats.io/",
+    "license": "MIT",
+    "url": "https://github.com/nats-io/nats-streaming-server/releases/download/v0.22.1/nats-streaming-server-v0.22.1-windows-amd64.zip",
+    "hash": "4516852b493111b73ec06477be4a27e66f5abc9ca1ff4dd2b970232271611264",
+    "extract_dir": "nats-streaming-server-v0.22.1-windows-amd64",
+    "checkver": {
+        "github": "https://github.com/nats-io/nats-streaming-server"
+    },
+    "autoupdate": {
+      "url": "https://github.com/nats-io/nats-streaming-server/releases/download/v$version/nats-streaming-server-v$version-windows-amd64.zip",
+      "extract_dir": "nats-streaming-server-v$version-windows-amd64"
+    }
+}
